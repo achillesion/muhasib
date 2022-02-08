@@ -2,7 +2,7 @@
     <section>
         <div class="container">
         <div class="video">
-            <iframe src="https://www.youtube.com/embed/5L3wKniOnro?autoplay=1" width="600" height="400" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/5L3wKniOnro?autoplay=1" width="450" height="300" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="text-container">
             <h1>Game Stories</h1>
@@ -37,7 +37,9 @@ section{
         min-height: 135px;
         display: flex;
         padding: 10px 100px;
-            
+            iframe{
+                margin-top: 50px;
+            }
         
         .text-container{
             padding: 20px 50px;

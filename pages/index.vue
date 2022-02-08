@@ -1,15 +1,15 @@
 <template>
   <div class="home">
     
-      <Navigation />
-      <Hero />
-      <SubHero />
-      <GameStories /> <!-- 
+    <Navigation />
+    <Hero />
+    <SubHero />
+    <GameStories />  
     <CoreFeatures />
     <GalacticRaces/>
     <PlayToWin/>
     <OurTeam/>
-    <Footer /> -->
+    <Footer /> 
     
   </div>
 </template>
