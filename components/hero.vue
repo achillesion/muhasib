@@ -32,7 +32,7 @@ export default {
     object-fit: contain;
     height: 100vh;
     background-color: #000;
-    padding-top: 30vh;
+ 
     display: flex;
     justify-content: center;
     
@@ -42,12 +42,12 @@ export default {
       flex-direction:column;
       justify-content: center;
       align-items: center;
-      .hero-log{
-       img{
+      
+     img{
         width: 509px;
-        margin: 0 auto;
+        /* border: 1px solid red; */
+        margin: 73px auto;
       }
-    }
     .text-container{
        display: flex;
        flex-direction: column;
@@ -64,6 +64,19 @@ export default {
         line-height: 140%;
         text-align: center;
         
+      }
+
+      h1::before{
+              content:"";
+                position: absolute;
+                top:480px;
+                left: 20px;
+                width: 100px;
+                background-image: url("../assets/imgs/hero/before.png") ;
+                
+                background-repeat: no-repeat;
+                height: 50px;
+               
       }
       h2{
         color: #fff;

@@ -11,6 +11,7 @@
     <OurTeam/>
     <Footer /> 
     
+    
   </div>
 </template>
 

@@ -46,7 +46,7 @@ section{
             color: #fff;
             h1{
                 font-size: 60px;
-                font-style: bold;
+                font-weight: 700;
                 font-family: 'Poppins';
                 color: rgba($color: #ffffff, $alpha: 1.0);
                 position: relative;

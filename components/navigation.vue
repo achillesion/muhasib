@@ -13,7 +13,7 @@
                 
             </ul>
             <div v-show="!mobile" class="valign">
-                <router-link class="link valign" :to="{name:''}">Sign In</router-link>
+                <router-link class="link valign" :to="{name:''}">SIGN IN</router-link>
             </div>
             
             <div class="mobile-icon">
@@ -116,13 +116,14 @@ header{
 
        ul,
        .link{
-        font-weight:500;
-        color: #fff;
+        font-weight:700;
+        color: #808080;
         list-style: none;
         text-decoration: none;
        }
 
         li{
+            font-style: bold;
             text-transform: uppercase;
             padding: 16px;
             margin-left:16px;
@@ -135,8 +136,8 @@ header{
             border-bottom: 1px solid transparent;
         
         &:hover{
-            color: #00afea;
-            border-color: #00afea;
+            color: #ffffff;
+            // border-color: #00afea;
         }
         }
 
