@@ -1,14 +1,13 @@
 <template>
-    <section id="gameStories">
+    <section id="playToEarn">
         <div class="container">
-            <div class="video">
-                <span class="frame"></span>
-                <iframe src="https://www.youtube.com/embed/5L3wKniOnro?autoplay=1" width="608" height="100%" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="text-container">
-                <h1>Game Stories</h1>
+             <div class="text-container">
+                <h1>Play To Earn</h1>
                 <p>BEO is set in t he near future, 2035 to be exact. The nefarious group called Illuminati took over the world with their agenda 2030. The New World Order as it was called, ushered an alien invasion with the help of a neighboring race. This invasion helped their plan to take over and decimate most of the human race.
                     5 years after the take down, there were barely any humans left. Most have been genetically modified for more than a decade through nano tech, and now are almost bionic in nature. Some of these bred humans disconnect from their programming and the hive mind, going rogue.</p>
+            </div>
+            <div class="image">
+                <img src="../assets/imgs/playtoearn/characters.png" width="" alt="">
             </div>
         </div>
     </section>
@@ -16,47 +15,39 @@
 
 <script>
 export default {
-    name:'GameStories'
+    name:'PlayToEarn'
 }
 </script>
 
 <style lang="scss" scoped>
-#gameStories{
+#playToEarn{
         background-color: #000;
-        background-image: url("../assets/imgs/gamestories/bg.png");
+        background-image: url("../assets/imgs/playtoearn/bg.png");
         width: 100%;
         background-size: cover;
         background-repeat:no-repeat;
         background-position: center center;
         padding-top: 100px;
         color: #fff;
-        min-height: 575px;
+        min-height: 80vh;
         
         
     .container{
-        margin: 20px auto !important; ;
-        padding-bottom: 100px;
+        margin: auto auto !important; 
         display: flex;
         flex-direction: row;
-            iframe{
-                z-index: -1;
-                padding-top: 20px;
-                padding-left: 10px;
-                height: 328px;
-                
+        justify-content: center;
+        align-items: center;
+          .image{
+              flex: 1;
+              margin-left: 50px;
+            
+            img{
+                // border: 1px solid red;
             }
-            .frame{
-                display: block;
-                background: url("../assets/imgs/gamestories/frame.png");
-                background-repeat: no-repeat;
-                position: absolute;
-                width: 675px;
-                height: 500px;;
-                z-index: 10;
-               
-            }
-        
+          }
         .text-container{
+            flex: 1;
             margin-left: 50px;
             color: #fff;
             h1{
@@ -102,32 +93,13 @@ export default {
       
     .container{
       flex-direction: column !important;
-      .video{
+      .image{
           
-        //   flex: 1;
-          iframe{
-              padding-top: 5px!important;
-              margin-left: 12px!important;
-              width: 340px;
-              height: 186px!important;
-          }
-          .frame{
-              margin-left: 12px!important;
-                background-image: url("../assets/imgs/gamestories/mobile-frame.png") !important;
-                display: block;
-                background-repeat: no-repeat;
-                position: absolute;
-                width: 340px!important;
-                height: 100%!important;
-                z-index: 100;
-                
-
-          }
        
       }
       .text-container{
           margin-top: 20px;
-          margin-left: 12px!important;
+          margin-left: 20px!important;
           padding: 10px 10px;
           h1{
               font-size: 28px!important;

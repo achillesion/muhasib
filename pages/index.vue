@@ -7,7 +7,7 @@
     <GameStories />  
     <CoreFeatures />
     <GalacticRaces/>
-    <PlayToWin/>
+    <PlayToEarn/>
     <OurTeam/>
     <Footer /> 
     

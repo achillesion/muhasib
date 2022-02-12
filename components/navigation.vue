@@ -66,7 +66,7 @@ export default {
             return;
         },
         updateScroll(){
-            const scrollPosition = windw.scrollY;
+            const scrollPosition = window.scrollY;
             if(scrollPosition > 50){
                 this.scrolledNav =true;
                 return;
@@ -105,12 +105,7 @@ header{
            
        }
 
-       @media(max-width: 740px){
-           .branding > img{
-               margin-top: 30px;
-           }
-           
-       }
+      
 
       
 
@@ -170,7 +165,7 @@ header{
             display: flex;
             align-items: center;
             position: absolute;
-            top:0;
+            top:-55px;
             right: 24px;
             height: 100%;
             margin-top: 50px;
@@ -227,6 +222,7 @@ header{
 
 .scrolled-nav{
     background-color: #000;
+
     box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
     nav{
         padding:8px 0;
@@ -238,4 +234,16 @@ header{
         }
     }
 }
+
+
+
+ @media(max-width: 740px){
+           .branding > img{
+               margin-top: 10px;
+           }
+           header{
+               min-height: 80px;
+           }
+           
+       }
 </style>

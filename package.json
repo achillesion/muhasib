@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "animated-number-vue": "^1.0.0",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.8",
     "swiper": "^8.0.3",

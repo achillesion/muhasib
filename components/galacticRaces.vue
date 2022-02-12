@@ -1,6 +1,6 @@
 <template>
     <section class="champions-section home-champions">
-            <h1 class="ornate">Galactic Races</h1>
+            <h1 class="ornate-races">Galactic Races</h1>
             <div class="champions-section__container">
                <div>
                   <div class="swiper-container swiper-container-horizontal">
@@ -65,12 +65,12 @@ export default {
     background: #081519;
     display: flex;
     flex-direction: column;
-    height: 106rem;
+    height: 100vh;
     margin: 0 auto;
     overflow: hidden;
-    padding-top: 10rem;
+    padding-top: 50px;
 }
-h1.ornate {
+h1.ornate-races {
     position: relative;
     color: #fff;
     font-family: 'poppins';
@@ -78,29 +78,31 @@ h1.ornate {
     font-weight: 700;
     line-height: 4.6rem;
     letter-spacing: .02rem;
-    margin: 0 auto 5rem;
-    padding: 0 1rem;
+    margin: 0px auto;
+    // padding: 0 1rem;
     text-align: center;
+    white-space: nowrap;
     
 }
-h1.ornate:after {
+h1.ornate-races:after {
     top: 180%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
-h1.ornate:after {
+h1.ornate-races:after {
     content: "";
     display: block;
-    width: 57.8rem;
-    height: 5rem;
+    width: 350px;
+    height:10px;
     position: absolute;
+    margin-left: 75px;
+    margin-top: -40px;
     background-image: url(../assets/imgs/galacticraces/line.png);
    background-repeat: no-repeat;
-    right: -33rem;
 }
 
-h1.ornate i {
+h1.ornate-races i {
     color: hsla(0,0%,100%,.1);
     font-size: 12rem;
     left: 50%;
@@ -112,11 +114,12 @@ h1.ornate i {
 
 @media only screen and (max-width: 600px) {
   section {
-      h1.ornate{
+      h1.ornate-races{
           font-size: 28px;
+         top: 0!important;
       }
 
-      h1.ornate::after{
+      h1.ornate-races::after{
                 content:"";
                 position: absolute;
                 top: 100%;

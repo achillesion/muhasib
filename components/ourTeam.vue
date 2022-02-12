@@ -1,5 +1,6 @@
 <template>
-  <section>
+  <section id="ourTeam">
+
     <h1 class="ornate">Our Team</h1>
 
     <!--row-1-->
@@ -33,8 +34,8 @@
           />
         </div>
         <div>
-          <h3>CARLOS</h3>
-          <p>FRONT END DEV</p>
+          <h3>BASIL MOUNTIAN</h3>
+          <p>MARKETING</p>
         </div>
       </div>
 
@@ -50,8 +51,8 @@
           />
         </div>
         <div>
-          <h3>CARLOS</h3>
-          <p>FRONT END DEV</p>
+          <h3>ANDIRUTZ</h3>
+          <p>UX DESIGNER</p>
         </div>
       </div>
 
@@ -67,8 +68,8 @@
           />
         </div>
         <div>
-          <h3>CARLOS</h3>
-          <p>FRONT END DEV</p>
+          <h3>GHOSTRUNNER</h3>
+          <p>UI DESIGNER</p>
         </div>
       </div>
     </div>
@@ -87,8 +88,8 @@
           />
         </div>
         <div>
-          <h3>CARLOS</h3>
-          <p>FRONT END DEV</p>
+          <h3>GRACE</h3>
+          <p>UI DESIGNER</p>
         </div>
       </div>
 
@@ -104,8 +105,8 @@
           />
         </div>
         <div>
-          <h3>CARLOS</h3>
-          <p>FRONT END DEV</p>
+          <h3>NICK LEODEON</h3>
+          <p>UX RESEARCH</p>
         </div>
       </div>
 
@@ -121,8 +122,8 @@
           />
         </div>
         <div>
-          <h3>CARLOS</h3>
-          <p>FRONT END DEV</p>
+          <h3>LEONA CHRIST</h3>
+          <p>PROJECT MANAGER</p>
         </div>
       </div>
 
@@ -138,8 +139,8 @@
           />
         </div>
         <div>
-          <h3>CARLOS</h3>
-          <p>FRONT END DEV</p>
+          <h3>MADRUNNERZ</h3>
+          <p>CEO OF BEYOND EARTH</p>
         </div>
       </div>
     </div>
@@ -306,8 +307,7 @@ export default {
 
 <style>
 @import 'node_modules/slick-carousel/slick/slick.css';
-
-section {
+#ourTeam {
   padding: 70px 0px 20px;
   background: #081519;
   background-image: url('../assets/imgs/our-team-img/our-team-background.png'),
@@ -324,26 +324,21 @@ h1.ornate {
   font-weight: 700;
   line-height: 4.6rem;
   letter-spacing: 0.02rem;
-  margin: 0 auto;
   text-align: center;
   max-width:20rem;
   margin: 0 auto;
 }
-h1.ornate:after {
-  top: 180%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
+
 
 h1.ornate:after {
   content: "";
   display: block;
- width: 100%;
-  height: 5rem;
-  position: absolute;
+  width: 400px;
+  height: 50px;
+  position: relative;
+  top: 2vh;
   background-image: url(../assets/imgs/galacticraces/line.png);
   background-repeat: no-repeat;
-  right: 0px;
 }
 .player-section {
   display: flex;
@@ -448,32 +443,19 @@ h1.ornate:after {
     h1.ornate::after {
       content: "";
       position: absolute;
-top: 100%;
-    left: 78px;
-  
+      width: 200px!important;
       background-image: url("../assets/imgs/coreFeatures/line-mobile.png");
       object-fit: cover;
       background-repeat: no-repeat;
       height: 20px;
-      margin-bottom: 20px;
-      text-align: center;
+      top: 7vh!important;
+      left: 75px!important;
     }
-}
-
-
-
-@media (max-width: 580px) {
-  section h1 {
-    font-size: 28px;
-  }
-  section h1::after {
-    background-image: url('../assets/imgs/our-team-img/our-team-line.png');
-    left: 62px;
-    width: 10rem;
-  }
-
-  .player-section:first-of-type {
+   .player-section:first-of-type {
     margin: 25px 0;
   }
 }
+
+
+
 </style>

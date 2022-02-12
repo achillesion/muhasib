@@ -1,6 +1,6 @@
 <template>
-<section class="l-section l-section_roles">
-        <h1 class="ornate">Our Core Features</h1>
+<section class="core-section core-section_roles">
+        <h1 class="ornate-core" >Our Core Features</h1>
 
         <div class="l-block l-block--full c-sliding-tabs">
             <div class="c-sliding-tabs__tabcontent">
@@ -8,54 +8,39 @@
                     <div class="c-sliding-tabs__background-wrapper">
                         <div class="c-sliding-tabs__background-img">
                             <picture class="c-objectfit c-objectfit--cover c-objectposition c-objectposition--center">
-                                <source srcset="
-                      https://dto9r5vaiz7bu.cloudfront.net/f6kcmp439n5op/source.jpg
-                    " media="(max-width: 420px)" />
-                                <img src="https://dto9r5vaiz7bu.cloudfront.net/f6kcmp439n5op/source.jpg" data-mediaslot="one" />
+                                <source srcset="../assets/imgs/corefeatures/bgs/fight-bg.jpg" media="(max-width: 420px)" />
+                                <img src="../assets/imgs/corefeatures/bgs/fight-bg.jpg" data-mediaslot="one" />
                             </picture>
                         </div>
                     </div>
-                    <div class="c-role__character" id="character0" data-src="../assets/media/3o4feyfcea432r/source/Source.mp4">
-                        <video class="c-video__defer character__video" playsinline="" muted="" style="display: none">
-                            <!-- <source src="../assets/media/3o4feyfcea432r/source/Source.mp4" type="video/mp4" /> -->
-                        </video><canvas width="590" height="818" class="seeThru-display"></canvas><canvas width="590" height="1636" class="seeThru-buffer" style="display: none"></canvas>
-                        <img class="character__static character__static--hidden" src="../assets/media/eae0hna98v7vrr/source/Source.png" data-mediaslot="three" />
+                    <div class="c-role__character" id="character0" data-src="../assets/imgs/corefeatures/fight.png">
+                         <img class="character__static" src="../assets/imgs/corefeatures/fight.png" data-mediaslot="three" />
                     </div>
                 </div>
                 <div id="role1" class="c-sliding-tabs__panel c-role c-role--Explore c-sliding-tabs__panel--active" data-wscitem="wsc_home_role">
                     <div class="c-sliding-tabs__background-wrapper">
                         <div class="c-sliding-tabs__background-img">
                             <picture class="c-objectfit c-objectfit--cover c-objectposition c-objectposition--center">
-                                <source srcset="
-                      ../assets/imgs/corefeatures/bg.png
-                    " media="(max-width: 420px)" />
-                                <img src="../assets/imgs/corefeatures/bg.png" data-mediaslot="one" />
+                                <source srcset="../assets/imgs/corefeatures/bgs/explore-bg.jpg" media="(max-width: 420px)" />
+                                <img src="../assets/imgs/corefeatures/bgs/explore-bg.jpg" data-mediaslot="one" />
                             </picture>
                         </div>
                     </div>
-                    <div class="c-role__character" id="character1" data-src="../assets/media/caibhequm1decr/source/Source.mp4">
-                        <video class="c-video__defer character__video" playsinline="" muted="" style="display: none">
-                            <source src="../assets/media/caibhequm1decr/source/Source.mp4" type="video/mp4" />
-                        </video><canvas width="590" height="818" class="seeThru-display"></canvas><canvas width="590" height="1636" class="seeThru-buffer" style="display: none"></canvas>
-                        <img class="character__static character__static--hidden" src="../assets/media/x44wyt0a5s6yxr/source/Source.png" data-mediaslot="three" />
+                    <div class="c-role__character" id="character0" data-src="../assets/imgs/corefeatures/explore.png">
+                         <img class="character__static" src="../assets/imgs/corefeatures/explore.png" data-mediaslot="three" />
                     </div>
                 </div>
                 <div id="role2" class="c-sliding-tabs__panel c-role c-role--spy" data-wscitem="wsc_home_role">
                     <div class="c-sliding-tabs__background-wrapper">
                         <div class="c-sliding-tabs__background-img">
                             <picture class="c-objectfit c-objectfit--cover c-objectposition c-objectposition--center">
-                                <source srcset="
-                      https://dto9r5vaiz7bu.cloudfront.net/da1p162wwerpk/source.jpg
-                    " media="(max-width: 420px)" />
-                                <img src="https://dto9r5vaiz7bu.cloudfront.net/da1p162wwerpk/source.jpg" data-mediaslot="one" />
+                                <source srcset="../assets/imgs/corefeatures/bgs/treasure-bg.jpg" media="(max-width: 420px)" />
+                                <img src="../assets/imgs/corefeatures/bgs/treasure-bg.jpg" data-mediaslot="one" />
                             </picture>
                         </div>
                     </div>
-                    <div class="c-role__character" id="character2" data-src="../assets/media/tlnvwvjdps7usr/source/Source.mp4">
-                        <video class="c-video__defer character__video" playsinline="" muted="" style="display: none">
-                            <source src="../assets/media/tlnvwvjdps7usr/source/Source.mp4" type="video/mp4" />
-                        </video><canvas width="590" height="818" class="seeThru-display"></canvas><canvas width="590" height="1636" class="seeThru-buffer" style="display: none"></canvas>
-                        <img class="character__static character__static--hidden" src="../assets/media/ak8caxd0crdtlr/source/Source.png" data-mediaslot="three" />
+                    <div class="c-role__character" id="character0" data-src="../assets/imgs/corefeatures/treasure.png">
+                         <img class="character__static" src="../assets/imgs/corefeatures/treasure.png" data-mediaslot="three" />
                     </div>
                 </div>
                 <div id="role3" class="c-sliding-tabs__panel c-role c-role--trade" data-wscitem="wsc_home_role">
@@ -63,17 +48,14 @@
                         <div class="c-sliding-tabs__background-img">
                             <picture class="c-objectfit c-objectfit--cover c-objectposition c-objectposition--center">
                                 <source srcset="
-                      https://dto9r5vaiz7bu.cloudfront.net/t8v72vgi8drxt/source.jpg
+                      ../assets/imgs/corefeatures/bgs/trade-bg.jpg
                     " media="(max-width: 420px)" />
-                                <img src="https://dto9r5vaiz7bu.cloudfront.net/t8v72vgi8drxt/source.jpg" data-mediaslot="one" />
+                                <img src="../assets/imgs/corefeatures/bgs/trade-bg.jpg" data-mediaslot="one" />
                             </picture>
                         </div>
                     </div>
-                    <div class="c-role__character" id="character3" data-src="../assets/media/fnk5e07yb61l2r/source/Source.mp4">
-                        <video class="c-video__defer character__video" playsinline="" muted="" style="display: none">
-                            <source src="../assets/media/fnk5e07yb61l2r/source/Source.mp4" type="video/mp4" />
-                        </video><canvas width="590" height="818" class="seeThru-display"></canvas><canvas width="590" height="1636" class="seeThru-buffer" style="display: none"></canvas>
-                        <img class="character__static character__static--hidden" src="../assets/media/gs8t2vj53x7xgr/source/Source.png" data-mediaslot="three" />
+                    <div class="c-role__character" id="character0" data-src="../assets/imgs/corefeatures/trade.png">
+                         <img class="character__static" src="../assets/imgs/corefeatures/trade.png" data-mediaslot="three" />
                     </div>
                 </div>
             </div>
@@ -83,7 +65,7 @@
                         <span class="c-sliding-tab__title--vertical">Fight</span>
                         <h4 class="c-sliding-tab__title--horizontal">Fight</h4>
                         <div class="c-sliding-tab__description">
-                            From high speed dogfights to intense FPS warfare, battles can occur anytime, anywhere. So whether you're chasing down ruthless bounties or raiding civilian cargo haulers, it'll be up to you to decide which side of the law you want to fall on.
+                           BEO has traditional elements of roleplay and exploration the MMO’s we love have, combined with the play to earn mechanics of blockchain technology making it the first of its kind.
                         </div>
                         <span aria-hidden="true" class="c-sliding-tab__hover"></span>
                     </li>
@@ -91,17 +73,15 @@
                         <span class="c-sliding-tab__title--vertical">EXPLORE</span>
                         <h4 class="c-sliding-tab__title--horizontal">EXPLORE</h4>
                         <div class="c-sliding-tab__description">
-                            The explorer builds a life on the pursuit of knowledge and discovery. They will seek out the unknown or sometimes just surrender to the thrill of getting lost. Whether it's a hidden outpost, a derelict ship or a beautiful sunset, explorers are eager to
-                            see what's waiting over that next ridge.
+                           BEO has traditional elements of roleplay and exploration the MMO’s we love have, combined with the play to earn mechanics of blockchain technology making it the first of its kind.
                         </div>
                         <span aria-hidden="true" class="c-sliding-tab__hover"></span>
                     </li>
                     <li class="c-sliding-tab c-sliding-tab--spy" data-tab="#role2" data-wscitem="wsc_home_role">
-                        <span class="c-sliding-tab__title--vertical">UNITE</span>
-                        <h4 class="c-sliding-tab__title--horizontal">UNITE</h4>
+                        <span class="c-sliding-tab__title--vertical">TREASURE</span>
+                        <h4 class="c-sliding-tab__title--horizontal">TREASURE</h4>
                         <div class="c-sliding-tab__description">
-                            Be a part of something greater. Engage other players to crew a multi-crew ship or build a player-run Organization into an entire spacefaring fleet. Either way, the Star Citizen Universe is all about community. In here, your actions have consequences that
-                            will either draw cheers from players and NPCs or get you shot.
+                           BEO has traditional elements of roleplay and exploration the MMO’s we love have, combined with the play to earn mechanics of blockchain technology making it the first of its kind.
                         </div>
                         <span aria-hidden="true" class="c-sliding-tab__hover"></span>
                     </li>
@@ -109,8 +89,7 @@
                         <span class="c-sliding-tab__title--vertical">Trade</span>
                         <h4 class="c-sliding-tab__title--horizontal">Trade</h4>
                         <div class="c-sliding-tab__description">
-                            Dive into a dynamic economy and seek your fortune. Traders are drawn to the thrill of amassing resources, currency and social status. Whether trading contraband on the blackmarket or building legitimate empires, the life of the trader requires resourcefulness,
-                            strategy and an entrepreneurial spirit.
+                            BEO has traditional elements of roleplay and exploration the MMO’s we love have, combined with the play to earn mechanics of blockchain technology making it the first of its kind.
                         </div>
                         <span aria-hidden="true" class="c-sliding-tab__hover"></span>
                     </li>
@@ -513,7 +492,7 @@ new((function() {
                             clearTimeout(timeout), (timeout = setTimeout(later, wait)), callNow && func.apply(context, args);
                         };
                     })(function() {
-                        var roleSection = document.querySelector(".l-section_roles");
+                        var roleSection = document.querySelector(".core-section_roles");
                         roleSection &&
                             (window.onscroll = function() {
                                 var roleSectionRectTop = roleSection.getBoundingClientRect().top;
@@ -554,26 +533,29 @@ new((function() {
 </script>
 
 <style lang="scss" scoped>
-h1.ornate {
-    position: relative;
+h1.ornate-core {
+    position: absolute;
     color: #fff;
     font-family: 'poppins';
     font-size: 60px;
     font-weight: 700;
     line-height: 4.6rem;
     letter-spacing: .02rem;
-    margin: 0 auto 5rem;
-    padding: 0 1rem;
+    margin: 0 auto !important;
     text-align: center;
-z-index: 1;
+    z-index: 1;
+    white-space: nowrap;
+    top: 25vh;
+    left: 35vw;
+    z-index: 9;
 }
-h1.ornate:after {
+h1.ornate-core:after {
     top: 180%;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
-h1.ornate:after {
+h1.ornate-core:after {
   content: "";
     height: 1rem;
     position: relative;
@@ -584,7 +566,7 @@ h1.ornate:after {
     background-image: url(../assets/imgs/galacticraces/line.png);
 }
 
-h1.ornate i {
+h1.ornate-core i {
     color: hsla(0,0%,100%,.1);
     font-size: 12rem;
     left: 50%;
@@ -596,11 +578,14 @@ h1.ornate i {
 
 @media only screen and (max-width: 600px) {
   section {
-      h1.ornate{
+      h1.ornate-core{
           font-size: 28px;
+          top: 0px !important;
+          left: 40px!important;
+
       }
 
-      h1.ornate::after{
+      h1.ornate-core::after{
                 content:"";
                 position: relative;
                 top: 10px;
@@ -746,27 +731,27 @@ section {
     display: block;
 }
 
-.l-section {
+.core-section {
     width: 100%;
     position: relative;
 }
 
-.l-section_roles {
+.core-section_roles {
     width: 100%;
     overflow: hidden;
 }
 
-.l-section_roles {
-    padding-top: 85px;
+.core-section_roles {
+    // padding-top: 85px;
 }
 
-.l-section:before {
+.core-section:before {
     background: #081519;
     z-index: 1;
 }
 
-.l-section:after,
-.l-section:before {
+.core-section:after,
+.core-section:before {
     width: 100%;
     height: 100%;
     pointer-events: none;
@@ -932,7 +917,7 @@ img {
     height: 818px;
     opacity: 0;
     position: absolute;
-    top: -240px;
+    top: 240px;
     -webkit-transform: translateX(-20px);
     -moz-transform: translateX(-20px);
     -ms-transform: translateX(-20px);
@@ -963,7 +948,7 @@ img {
 }
 
 .c-role .character__static {
-    z-index: 1;
+    position: relative;
     transition: all .4s cubic-bezier(.165, .84, .44, 1);
     -moz-transition: all .4s cubic-bezier(.165, .84, .44, 1);
     -webkit-transition: all .4s cubic-bezier(.165, .84, .44, 1);
@@ -971,14 +956,14 @@ img {
 }
 
 .c-role .character__static--hidden {
-    opacity: 0;
+    opacity: 1;
 }
 
 .c-sliding-tabs__tabs {
     position: absolute;
     right: 26px;
     text-align: right;
-    top: 70px;
+    top: 130px;
     width: calc(100% - 52px);
     z-index: 5;
 }
@@ -1077,7 +1062,7 @@ ul {
 
 .c-sliding-tab__description {
     position: relative;
-    font-size: 13px;
+    font-size: 16px!important;
     line-height: 18px;
     z-index: 1;
     color: #fff;
@@ -1167,7 +1152,7 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
     content: "";
     height: 12px;
     display: block;
-    width: 5rem;
+    width: 300px;
     background-image: url(../assets/imgs/corefeatures/Union.png);
     background-repeat: no-repeat;
 }
@@ -1180,7 +1165,7 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
         height: 576px;
     }
     .c-sliding-tabs__background-wrapper {
-        height: 440px;
+        min-height: 100vh;
         top: 0;
     }
     .c-sliding-tabs__tabs {
@@ -1272,7 +1257,7 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
 }
 
 @media (min-width: 1024px) {
-    .l-section {
+    .core-section {
         padding: 71px 0 0;
     }
     .c-sliding-tabs__tabs {
@@ -1341,10 +1326,10 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
 }
 
 @media (min-width: 1260px) {
-    .l-section {
+    .core-section {
         padding: 142px 0 0;
     }
-    .l-section_roles {
+    .core-section_roles {
         padding-bottom: 144px;
     }
     .c-sectiontitle {
@@ -1353,14 +1338,14 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
         width: 1224px;
     }
     .c-sliding-tabs__background-wrapper {
-        height: 475px;
+        height: 100vh;
     }
     .c-role__character {
         left: 10%;
     }
     .c-sliding-tabs__tabs {
         margin-left: -612px;
-        top: 45px;
+        top: 200px;
         width: 1224px;
     }
     .c-sliding-tabs__tabs h3 {
@@ -1374,15 +1359,15 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
 }
 
 @media (max-width: 1259px) {
-    .l-section--light:before,
-    .l-section:before {
+    .core-section--light:before,
+    .core-section:before {
         width: calc(100vw + 132px);
         left: -31px;
     }
 }
 
 @media (max-width: 1023px) {
-    .l-section:before {
+    .core-section:before {
         background-size: 54px 54px;
         width: calc(100vw + 108px);
         left: -27px;
@@ -1392,7 +1377,7 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
         margin: 0;
         padding: 12px 60px 12px 90px;
     }
-    .l-section_roles {
+    .core-section_roles {
         padding-bottom: 85px;
     }
     .c-role__character {
@@ -1401,7 +1386,7 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
 }
 
 @media (max-width: 767px) {
-    .l-section_roles {
+    .core-section_roles {
         margin-top: -54px;
     }
     .c-role__character {
