@@ -8,11 +8,11 @@
       <div class="player-details">
         <div class="player-img">
           <img
-            src="../assets/imgs/our-team-img/player-img-1.png"
+            src="../assets/imgs/ourteam/carlos.png"
             alt="player-img-1"
           />
           <img
-            src="../assets/imgs/our-team-img/player-before-img.png"
+            src="../assets/imgs/ourteam/player-before-img.png"
             alt="player-before-img"
           />
         </div>
@@ -25,11 +25,11 @@
       <div class="player-details">
         <div class="player-img">
           <img
-            src="../assets/imgs/our-team-img/player-img-2.png"
+            src="../assets/imgs/ourteam/basil.png"
             alt="player-img-2"
           />
           <img
-            src="../assets/imgs/our-team-img/player-before-img.png"
+            src="../assets/imgs/ourteam/player-before-img.png"
             alt="player-before-img"
           />
         </div>
@@ -42,11 +42,11 @@
       <div class="player-details">
         <div class="player-img">
           <img
-            src="../assets/imgs/our-team-img/player-img-3.png"
+            src="../assets/imgs/ourteam/andirutz.png"
             alt="player-img-3"
           />
           <img
-            src="../assets/imgs/our-team-img/player-before-img.png"
+            src="../assets/imgs/ourteam/player-before-img.png"
             alt="player-before-img"
           />
         </div>
@@ -59,11 +59,11 @@
       <div class="player-details">
         <div class="player-img">
           <img
-            src="../assets/imgs/our-team-img/player-img-4.png"
+            src="../assets/imgs/ourteam/ghostrunner.png"
             alt="player-img-4"
           />
           <img
-            src="../assets/imgs/our-team-img/player-before-img.png"
+            src="../assets/imgs/ourteam/player-before-img.png"
             alt="player-before-img"
           />
         </div>
@@ -79,11 +79,11 @@
       <div class="player-details">
         <div class="player-img">
           <img
-            src="../assets/imgs/our-team-img/player-img-5.png"
+            src="../assets/imgs/ourteam/grace.png"
             alt="player-img-5"
           />
           <img
-            src="../assets/imgs/our-team-img/player-before-img.png"
+            src="../assets/imgs/ourteam/player-before-img.png"
             alt="player-before-img"
           />
         </div>
@@ -96,11 +96,11 @@
       <div class="player-details">
         <div class="player-img">
           <img
-            src="../assets/imgs/our-team-img/player-img-6.png"
+            src="../assets/imgs/ourteam/nick.png"
             alt="player-img-6"
           />
           <img
-            src="../assets/imgs/our-team-img/player-before-img.png"
+            src="../assets/imgs/ourteam/player-before-img.png"
             alt="player-before-img"
           />
         </div>
@@ -113,11 +113,11 @@
       <div class="player-details">
         <div class="player-img">
           <img
-            src="../assets/imgs/our-team-img/player-img-7.png"
+            src="../assets/imgs/ourteam/leona.png"
             alt="player-img-7"
           />
           <img
-            src="../assets/imgs/our-team-img/player-before-img.png"
+            src="../assets/imgs/ourteam/player-before-img.png"
             alt="player-before-img"
           />
         </div>
@@ -130,11 +130,11 @@
       <div class="player-details">
         <div class="player-img">
           <img
-            src="../assets/imgs/our-team-img/player-img-8.png"
+            src="../assets/imgs/ourteam/madrunnerz.png"
             alt="player-img-8"
           />
           <img
-            src="../assets/imgs/our-team-img/player-before-img.png"
+            src="../assets/imgs/ourteam/player-before-img.png"
             alt="player-before-img"
           />
         </div>
@@ -147,118 +147,143 @@
 
     <div class="slick-row">
       <Slick ref="slick" :options="slickOptions" style="overflow: hidden">
-        <div class="player-details">
-          <div class="player-img">
-            <img
-              src="../assets/imgs/our-team-img/player-img-8.png"
-              alt="player-img-8"
-            />
-            <img
-              src="../assets/imgs/our-team-img/player-before-img.png"
-              alt="player-before-img"
-            />
-          </div>
-          <div>
-            <h3>CARLOS</h3>
-            <p>FRONT END DEV</p>
-          </div>
+             <div class="player-details">
+        <div class="player-img">
+          <img
+            src="../assets/imgs/ourteam/carlos.png"
+            alt="player-img-1"
+          />
+          <img
+            src="../assets/imgs/ourteam/player-before-img.png"
+            alt="player-before-img"
+          />
         </div>
-        <div class="player-details">
-          <div class="player-img">
-            <img
-              src="../assets/imgs/our-team-img/player-img-8.png"
-              alt="player-img-8"
-            />
-            <img
-              src="../assets/imgs/our-team-img/player-before-img.png"
-              alt="player-before-img"
-            />
-          </div>
-          <div>
-            <h3>CARLOS</h3>
-            <p>FRONT END DEV</p>
-          </div>
+        <div>
+          <h3>CARLOS</h3>
+          <p>FRONT END DEV</p>
         </div>
-        <div class="player-details">
-          <div class="player-img">
-            <img
-              src="../assets/imgs/our-team-img/player-img-8.png"
-              alt="player-img-8"
-            />
-            <img
-              src="../assets/imgs/our-team-img/player-before-img.png"
-              alt="player-before-img"
-            />
-          </div>
-          <div>
-            <h3>CARLOS</h3>
-            <p>FRONT END DEV</p>
-          </div>
+      </div>
+
+      <div class="player-details">
+        <div class="player-img">
+          <img
+            src="../assets/imgs/ourteam/basil.png"
+            alt="player-img-2"
+          />
+          <img
+            src="../assets/imgs/ourteam/player-before-img.png"
+            alt="player-before-img"
+          />
         </div>
-        <div class="player-details">
-          <div class="player-img">
-            <img
-              src="../assets/imgs/our-team-img/player-img-8.png"
-              alt="player-img-8"
-            />
-            <img
-              src="../assets/imgs/our-team-img/player-before-img.png"
-              alt="player-before-img"
-            />
-          </div>
-          <div>
-            <h3>CARLOS</h3>
-            <p>FRONT END DEV</p>
-          </div>
+        <div>
+          <h3>BASIL MOUNTIAN</h3>
+          <p>MARKETING</p>
         </div>
-        <div class="player-details">
-          <div class="player-img">
-            <img
-              src="../assets/imgs/our-team-img/player-img-8.png"
-              alt="player-img-8"
-            />
-            <img
-              src="../assets/imgs/our-team-img/player-before-img.png"
-              alt="player-before-img"
-            />
-          </div>
-          <div>
-            <h3>CARLOS</h3>
-            <p>FRONT END DEV</p>
-          </div>
+      </div>
+
+      <div class="player-details">
+        <div class="player-img">
+          <img
+            src="../assets/imgs/ourteam/andirutz.png"
+            alt="player-img-3"
+          />
+          <img
+            src="../assets/imgs/ourteam/player-before-img.png"
+            alt="player-before-img"
+          />
         </div>
-        <div class="player-details">
-          <div class="player-img">
-            <img
-              src="../assets/imgs/our-team-img/player-img-8.png"
-              alt="player-img-8"
-            />
-            <img
-              src="../assets/imgs/our-team-img/player-before-img.png"
-              alt="player-before-img"
-            />
-          </div>
-          <div>
-            <h3>CARLOS</h3>
-            <p>FRONT END DEV</p>
-          </div>
+        <div>
+          <h3>ANDIRUTZ</h3>
+          <p>UX DESIGNER</p>
         </div>
-        <div class="player-details">
-          <div class="player-img">
-            <img
-              src="../assets/imgs/our-team-img/player-img-8.png"
-              alt="player-img-8"
-            />
-            <img
-              src="../assets/imgs/our-team-img/player-before-img.png"
-              alt="player-before-img"
-            />
-          </div>
-          <div>
-            <h3>CARLOS</h3>
-            <p>FRONT END DEV</p>
-          </div>
+      </div>
+
+      <div class="player-details">
+        <div class="player-img">
+          <img
+            src="../assets/imgs/ourteam/ghostrunner.png"
+            alt="player-img-4"
+          />
+          <img
+            src="../assets/imgs/ourteam/player-before-img.png"
+            alt="player-before-img"
+          />
         </div>
+        <div>
+          <h3>GHOSTRUNNER</h3>
+          <p>UI DESIGNER</p>
+        </div>
+      </div>
+      
+      <!--row-2-->
+        <div class="player-details">
+        <div class="player-img">
+          <img
+            src="../assets/imgs/ourteam/grace.png"
+            alt="player-img-5"
+          />
+          <img
+            src="../assets/imgs/ourteam/player-before-img.png"
+            alt="player-before-img"
+          />
+        </div>
+        <div>
+          <h3>GRACE</h3>
+          <p>UI DESIGNER</p>
+        </div>
+      </div>
+
+      <div class="player-details">
+        <div class="player-img">
+          <img
+            src="../assets/imgs/ourteam/nick.png"
+            alt="player-img-6"
+          />
+          <img
+            src="../assets/imgs/ourteam/player-before-img.png"
+            alt="player-before-img"
+          />
+        </div>
+        <div>
+          <h3>NICK LEODEON</h3>
+          <p>UX RESEARCH</p>
+        </div>
+      </div>
+
+      <div class="player-details">
+        <div class="player-img">
+          <img
+            src="../assets/imgs/ourteam/leona.png"
+            alt="player-img-7"
+          />
+          <img
+            src="../assets/imgs/ourteam/player-before-img.png"
+            alt="player-before-img"
+          />
+        </div>
+        <div>
+          <h3>LEONA CHRIST</h3>
+          <p>PROJECT MANAGER</p>
+        </div>
+      </div>
+       <div class="player-details">
+        <div class="player-img">
+          <img
+            src="../assets/imgs/ourteam/madrunnerz.png"
+            alt="player-img-8"
+          />
+          <img
+            src="../assets/imgs/ourteam/player-before-img.png"
+            alt="player-before-img"
+          />
+        </div>
+        <div>
+          <h3>MADRUNNERZ</h3>
+          <p>CEO OF BEYOND EARTH</p>
+        </div>
+       </div>
+
+
       </Slick>
     </div>
   </section>
@@ -310,7 +335,7 @@ export default {
 #ourTeam {
   padding: 70px 0px 20px;
   background: #081519;
-  background-image: url('../assets/imgs/our-team-img/our-team-background.png'),
+  background-image: url('../assets/imgs/ourteam/our-team-background.png'),
     linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0) 100%);
   background-size: cover;
   background-position: center;
@@ -348,7 +373,7 @@ h1.ornate:after {
   margin: 100px 0;
 }
 .player-details {
-  max-width: 273px;
+  max-width: 272px;
   width: 100%;
 }
 .player-details .player-img {
@@ -360,7 +385,7 @@ h1.ornate:after {
 }
 .player-details .player-img img:last-of-type {
   position: absolute;
-  bottom: -30px;
+  bottom: -35px;
   left: 0px;
 }
 .player-details div {

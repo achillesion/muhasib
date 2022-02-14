@@ -2,12 +2,7 @@
     <section id="subHero">
         <div class="container">
             <div class="box">
-                <h1> <animated-number
-    :value="value"
-    :round="0"
-    :delay="1500"
-    :duration="1000"
-  /><span> +</span></h1>
+                <h1>500<span> +</span></h1>
                 <p>Active Users</p>
             </div>
             <img src="../assets/imgs/subhero/yellow-box.svg" alt="Yellow Box">
@@ -25,23 +20,8 @@
 </template>
 
 <script>
-import AnimatedNumber from "animated-number-vue";
 export default {
-    name:'SubHero',
-      components: {
-    AnimatedNumber
-  },
-  data() {
-    return {
-      value:500,
-      round:0,
-    };
-  },
-  methods: {
-    formatToPrice(value) {
-      return ` ${value}`;
-    }
-  }
+    name:'SubHero'
 }
 </script>
 

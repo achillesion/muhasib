@@ -581,7 +581,7 @@ h1.ornate-core i {
       h1.ornate-core{
           font-size: 28px;
           top: 0px !important;
-          left: 40px!important;
+          left: 60px!important;
 
       }
 

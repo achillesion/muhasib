@@ -122,8 +122,8 @@ h1.ornate-races i {
       h1.ornate-races::after{
                 content:"";
                 position: absolute;
-                top: 100%;
-                left: 20%;
+                top: 120px;
+                left: -17%;
                  width:183px;
                 background-image: url("../assets/imgs/coreFeatures/line-mobile.png") ;
                 object-fit: cover;

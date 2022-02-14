@@ -8,6 +8,8 @@
     <CoreFeatures />
     <GalacticRaces/>
     <PlayToEarn/>
+    <Stats/>
+    <StatsSub/>
     <OurTeam/>
     <Footer /> 
     
@@ -24,3 +26,9 @@ export default {
   name: 'IndexPage',
 }
 </script>
+
+<style lang="scss" scoped>
+.home{
+  background-color: #000;
+}
+</style>

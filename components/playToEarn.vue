@@ -4,10 +4,16 @@
              <div class="text-container">
                 <h1>Play To Earn</h1>
                 <p>BEO is set in t he near future, 2035 to be exact. The nefarious group called Illuminati took over the world with their agenda 2030. The New World Order as it was called, ushered an alien invasion with the help of a neighboring race. This invasion helped their plan to take over and decimate most of the human race.
-                    5 years after the take down, there were barely any humans left. Most have been genetically modified for more than a decade through nano tech, and now are almost bionic in nature. Some of these bred humans disconnect from their programming and the hive mind, going rogue.</p>
+                    5 years after the take down, there were barely any humans left. Most have been genetically modified for more than a decade through nano tech, and now are almost bionic in nature. Some of these bred humans disconnect from their programming and the hive mind, going rogue.
+                </p>
+                <div class="game-logo">
+                   <img src="../assets/imgs/playtoearn/coin-logo.png"  width="50px" alt="">
+                   <h2>Galactic Travel Token ($GTT)</h2>
+                </div>
             </div>
             <div class="image">
-                <img src="../assets/imgs/playtoearn/characters.png" width="" alt="">
+                <img src="../assets/imgs/playtoearn/characters.png" alt="">
+                
             </div>
         </div>
     </section>
@@ -40,10 +46,13 @@ export default {
         align-items: center;
           .image{
               flex: 1;
-              margin-left: 50px;
+              
             
             img{
                 // border: 1px solid red;
+                width:400px;
+                display: flex;
+                margin-left: 100px;
             }
           }
         .text-container{
@@ -84,6 +93,17 @@ export default {
                 line-height: 180%;
                 font-weight: 400;
             }
+
+            .game-logo{
+                margin-top: 30px;
+                display: flex;
+                h2{
+                    font-family: 'poppins';
+                    font-weight: 400;
+                    font-size: 18px;
+                    margin-top: 10px;
+                    margin-left: 20px;                }
+            }
         }
     }
 }
@@ -95,6 +115,9 @@ export default {
       flex-direction: column !important;
       .image{
           
+          img{
+              margin-left: 0px!important;
+          }
        
       }
       .text-container{
