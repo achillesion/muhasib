@@ -5,7 +5,7 @@
                 <img src="@/assets/imgs/nav/logo.png" alt="">
             </div> 
             <ul v-show="!mobile" class="navigation">
-                <li><router-link class="link" :to="{name:''}">Home</router-link></li>
+                <li><router-link class="link active" :to="{name:''}">Home</router-link></li>
                 <li><router-link class="link" :to="{name:''}">Mint</router-link></li>
                 <li><router-link class="link" :to="{name:''}">Learn</router-link></li>
                 <li><router-link class="link" :to="{name:''}">Market</router-link></li>
@@ -21,7 +21,7 @@
             </div>
             <transition name="mobile-nav">
                 <ul v-show="mobileNav" class="dropdown-nav">
-                <li><router-link class="link" :to="{name:'Home'}">Home</router-link></li>
+                <li  class="active"><router-link class="link" :to="{name:'Home'}">Home</router-link></li>
                 <li><router-link class="link" :to="{name:''}">Mint</router-link></li>
                 <li><router-link class="link" :to="{name:''}">Learn</router-link></li>
                 <li><router-link class="link" :to="{name:''}">Market</router-link></li>
@@ -124,11 +124,16 @@ header{
             margin-left:16px;
         }
 
+        li .active{
+             color: #ffffff;
+        }
+
         .link{
             font-size: 14px;
             transition: 0.5s ease all;
             padding-bottom: 4px;
             border-bottom: 1px solid transparent;
+        
         
         &:hover{
             color: #ffffff;
@@ -159,6 +164,7 @@ header{
         .valign{
             display: flex;
             align-items: center;
+            margin-right:50px ;
         }
 
         .mobile-icon{
@@ -229,13 +235,16 @@ header{
     }
     .branding{
         img{
+            margin-top: 10px;
             width: 40px;
             box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
         }
     }
 }
 
+@media (min-width:1200px){
 
+}
 
  @media(max-width: 740px){
            .branding > img{

@@ -64,9 +64,16 @@ export default {
           left: calc(50vw - 120px);
         } 
 
+      @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
         .text{ 
           position: relative;
-          top: 15px;
+          /* border: 1px solid red; */
+          top: 13px;
+          left: -5px;
           color: #FFF;
           font-family: Poppins;
           font-style: normal;
@@ -78,7 +85,14 @@ export default {
 text-align: center;
         }
         .text:hover{
-          text-shadow: 0.15em 0.15em 0.1em #2F4F4F
+          text-shadow: 0.15em 0.15em 0.1em #2F4F4F;
+          /* transition-delay: 0.25s; */
+          transition-timing-function: ease;
+          animation: fadeIn linear 0.25s;
+          -webkit-animation: fadeIn linear 0.25s;
+          -moz-animation: fadeIn linear 0.25s;
+          -o-animation: fadeIn linear 0.25s;
+          -ms-animation: fadeIn linear 0.25s;
           
 
         }
@@ -177,7 +191,7 @@ text-align: center;
           left: 22vw!important;
         } 
         .text{
-          top: 14px!important;
+          top: 0px!important;
         }
 
     }

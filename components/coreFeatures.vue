@@ -545,8 +545,8 @@ h1.ornate-core {
     text-align: center;
     z-index: 1;
     white-space: nowrap;
-    top: 25vh;
-    left: 35vw;
+     top: 10vh;
+     left: 35vw;
     z-index: 9;
 }
 h1.ornate-core:after {
@@ -1327,7 +1327,7 @@ span.c-sliding-tab__title--vertical, h4.c-sliding-tab__title--horizontal {
 
 @media (min-width: 1260px) {
     .core-section {
-        padding: 142px 0 0;
+        
     }
     .core-section_roles {
         padding-bottom: 144px;

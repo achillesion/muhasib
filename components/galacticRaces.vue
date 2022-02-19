@@ -35,6 +35,36 @@
                               </div>
                            </div>
                         </div>
+                        <div class="swiper-slide" data-swiper-slide-index="2">
+                           <div class="champion Vora">
+                              <a class="active-link" href="/champions/vora"></a>
+                              <div class="champion__image"><img alt="champion" src="../assets/imgs/galacticraces/4.png"></div>
+                              <div class="about">
+                                 <div class="role"><i class="role-icon icon-flanker"></i></div>
+                                 <div class="champion__name">Vora</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="2">
+                           <div class="champion Vora">
+                              <a class="active-link" href="/champions/vora"></a>
+                              <div class="champion__image"><img alt="champion" src="../assets/imgs/galacticraces/4.png"></div>
+                              <div class="about">
+                                 <div class="role"><i class="role-icon icon-flanker"></i></div>
+                                 <div class="champion__name">Vora</div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="swiper-slide" data-swiper-slide-index="2">
+                           <div class="champion Vora">
+                              <a class="active-link" href="/champions/vora"></a>
+                              <div class="champion__image"><img alt="champion" src="../assets/imgs/galacticraces/4.png"></div>
+                              <div class="about">
+                                 <div class="role"><i class="role-icon icon-flanker"></i></div>
+                                 <div class="champion__name">Vora</div>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -174,7 +204,7 @@ h1.ornate-races i {
     cursor: pointer;
     height: 30rem; // Side walay saray boxes ki height
     opacity: .4;
-    transition: all .2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .home-champions .swiper-slide-active .champion, .home-champions .swiper-slide-duplicate-active .champion {
     background: #111111;
@@ -182,6 +212,7 @@ h1.ornate-races i {
     opacity: 1;
     overflow: initial;
     pointer-events: none;
+    transition: all 0.5s ease;
 }
 .home-champions .swiper-slide-active a, .home-champions .swiper-slide-duplicate-active a {
     pointer-events: auto;
@@ -244,6 +275,7 @@ h1.ornate-races i {
     font-size: 2rem;
     padding-left: 2rem;
     letter-spacing: 2px;
+   
 }
 .home-champions .swiper-slide {
     width: 30.6rem!important;

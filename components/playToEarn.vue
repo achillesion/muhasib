@@ -35,7 +35,7 @@ export default {
         background-position: center center;
         padding-top: 100px;
         color: #fff;
-        min-height: 80vh;
+        min-height: 70vh;
         
         
     .container{
@@ -46,13 +46,14 @@ export default {
         align-items: center;
           .image{
               flex: 1;
-              
+               margin-right:200px ;
             
             img{
                 // border: 1px solid red;
                 width:400px;
                 display: flex;
                 margin-left: 100px;
+               
             }
           }
         .text-container{
@@ -108,6 +109,8 @@ export default {
     }
 }
 
+
+//Mobile QUesries
  @media only screen and (max-width: 600px) {
   section {
       
@@ -117,6 +120,7 @@ export default {
           
           img{
               margin-left: 0px!important;
+              margin-right:50px ;
           }
        
       }
