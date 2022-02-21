@@ -8,8 +8,12 @@
          <h1 class="heading">MMORPG</h1>
          <h2>BLOCKCHAIN POWERED</h2>
          <p>BEO is a Top Down PvP focused Massively MultiPlayer Online  game, powered by NFT technology on <span class="bold-p">ETHEREUM BLOCKCHAIN</span></p>
-          <a href="#" class="button ribbon-outset borderr">Play for Free</a>
-          <img src="../assets/imgs/hero/marker.png" alt="" style="width:20px; ">
+          <button>
+          <span class='image'></span>
+          <span class='text'>PLAY FOR FREE</span>
+          </button>
+
+          <img id="marker" src="../assets/imgs/hero/marker.png" alt="" style="width:20px; ">
        </div>
       
     </div>
@@ -32,7 +36,6 @@ export default {
     object-fit: contain;
     height: 100vh;
     background-color: #000;
-    padding-top: 30vh;
     display: flex;
     justify-content: center;
     
@@ -42,22 +45,64 @@ export default {
       flex-direction:column;
       justify-content: center;
       align-items: center;
-      .hero-log{
-       img{
-        width: 509px;
-        margin: 0 auto;
+      padding-top:100px ;
+     .hero-logo{
+        margin: 20px auto;
       }
-    }
     .text-container{
        display: flex;
        flex-direction: column;
        justify-content: center;
       
-      img{
+
+        .image{
+          display: block;
+          position: absolute;
+          background:url("../assets/imgs/hero/button.png") no-repeat top left;
+          width: 500px;
+          height: 50px;
+          left: calc(50vw - 120px);
+        } 
+
+      @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+        .text{ 
+          position: relative;
+          /* border: 1px solid red; */
+          top: 13px;
+          left: -5px;
+          color: #FFF;
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          /* line-height: 24px; */
+
+/* identical to box height */
+text-align: center;
+        }
+        .text:hover{
+          text-shadow: 0.15em 0.15em 0.1em #2F4F4F;
+          /* transition-delay: 0.25s; */
+          transition-timing-function: ease;
+          animation: fadeIn linear 0.25s;
+          -webkit-animation: fadeIn linear 0.25s;
+          -moz-animation: fadeIn linear 0.25s;
+          -o-animation: fadeIn linear 0.25s;
+          -ms-animation: fadeIn linear 0.25s;
+          
+
+        }
+
+      img {
         width: 509px;
         margin: 0 auto;
       }
       h1{
+        position: relative;
         color: #FFF;
         font-weight: Bold;
         font-size: 30px;
@@ -65,6 +110,34 @@ export default {
         text-align: center;
         
       }
+
+      h1:hover{
+        text-shadow: 0px 3px 5px 0px #0000003D;
+      }
+      h1::before{
+              content:"";
+                position: absolute;
+                top:20px;
+                left:8vh;
+                width: 100px;
+                background-image: url("../assets/imgs/hero/before.png") ;
+                
+                background-repeat: no-repeat;
+                height: 50px;
+               
+      }
+       h1::after{
+              content:"";
+                position: absolute;
+                top:20px;
+                right: 8vh;
+                width: 100px;
+                background-image: url("../assets/imgs/hero/after.png") ;
+                background-repeat: no-repeat;
+                height: 50px;
+               
+      }
+
       h2{
         color: #fff;
         font-weight: Bold;
@@ -78,7 +151,8 @@ export default {
         font-weight: 400;
         display:block;
         text-align: center;
-
+        margin-top:25px ;
+        margin-bottom: 30px;
         color:#fff;
         .bold-p{
           font-family: 'Poppins',sans-serif;
@@ -86,97 +160,68 @@ export default {
           font-weight: bold;
 
         }
+
+        
       }
-      /* Custom Button */
-          .button {
-            position: relative;
-            display: block;
-            background: transparent;
-            z-index: 1;
-            width: 300px;
-            height: 80px;
-            line-height: 65px;
-            text-align: center;
-            font-size: 16px;
-            font-style: bold;
-            text-decoration: none;
-            text-transform: uppercase;
-            color: #ffffff;
-            margin: 40px auto;
-            font-family: Poppins;
-            box-sizing: border-box;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
-          }
-          .button:hover{
-            text-shadow: 2px 2px 5px #ffffff;
-          }
-          .button:before,
-          .button:after {
-            position: absolute;
-            content: '';
-            width: 300px;
-            left: 0px;
-            height: 27px;
-            z-index: 99;
-          }
-
-          .button:before {
-            transform: perspective(15px) rotateX(3deg);
-          }
-          .button:after {
-            top: 35px;
-            transform: perspective(15px) rotateX(-3deg);
-          }
-
-          /* Button Border Style */
-
-          .button.borderr:before,
-          .button.borderr:after {
-            background-color: #E99300;
-            z-index: -1;
-            border: 4px solid #ffffff;
-          }
-          .button.borderr:before {
-            border-bottom: none; /* to prevent the border-line showing up in the middle of the shape */
-          }
-          .button.borderr:after {
-            border-top: none; /* to prevent the border-line showing up in the middle of the shape */
-          }
-
-          /* Button hover styles */
-
-          .button.borderr:hover:before,
-          .button.borderr:hover:after {
-            background: #E99300;
-
-          }
-          .button.borderr:hover {
-            color: rgb(0, 0, 0);
-          }
-    }
-
-    }
-    
     
 
     }
-   
-  @media only screen and (max-width: 600px) {
+    }
+  
+}
+
+@media only screen and (max-width: 600px) {
   #hero {
     background-position: 44% 50%;
     .container{
+
+      
      
       img{
         width: 265px;
         
       }
 
+       .image{
+          display: block;
+          position: absolute;
+          background:url("../assets/imgs/hero/button.png") no-repeat top left;
+          width: 60%!important;
+          height: 50px;
+          left: 22vw!important;
+        } 
+        .text{
+          top: 0px!important;
+        }
+
     }
+
+    h1::before{
+              content:"";
+                position: absolute;
+                top:20px;
+                left: 2vh !important;;
+                width: 100px;
+                background-image: url("../assets/imgs/hero/before.png") ;
+                background-repeat: no-repeat;
+                height: 50px;
+               
+      }
+       h1::after{
+              content:"";
+                position: absolute;
+                top:20px;
+                left: 32vh !important;;
+                width: 100px;
+                background-image: url("../assets/imgs/hero/after.png") ;
+                background-repeat: no-repeat;
+                height: 50px;
+               
+      }
      
   }
+
 }
-
-
  
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="subHero">
         <div class="container">
             <div class="box">
                 <h1>500<span> +</span></h1>
@@ -26,48 +26,61 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-section{
+
+#subHero{
     background-color: #222;
     background-image: url("../assets/imgs/subhero/particles.png");
     background-size: 2000px!important;
     background-repeat:no-repeat;
     color: #fff;
-    min-height: 135px;
+    min-height: 148px;
     display: flex;
     justify-content: center;
+    // padding: 0px 100px;
     
-    h1{
-        text-align: center;
-        font-size: 30px;
-        font-style: 700;
-    }
-    p{
-        font-family: 'poppins';
-        font-style: medium;
-        font-size: 16px;
-        color: #808080;
-    }
-    span{
-        color: #E99300;
-
-    }
-    .container{
+     .container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 70px;
+        margin: 0px 230px;
+       
         .box{
             padding: 20px;
         }
+
+        h1{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        p{
+            font-family: 'poppins';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 140%;
+            color: #808080;
+            text-align: center;
+        }
+        span{
+            color: #E99300;
+
+        }
     }
+
+   
+   
 }
 
   @media only screen and (max-width: 600px) {
-  section {
+  #subHero {
       background-size: 1500px;
     .container{
       flex-direction: column;
+      margin: 20px 0px 20px 0px;
+      h1{
+          font-size: 24px;
+      }
     }
      
   }
