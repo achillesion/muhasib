@@ -144,7 +144,7 @@ export default {
           top: 100%;
           left: 0%;
           width: 100%;
-          background-image: url("~/assets/imgs/gamestories/line-mobile.png") !important ;
+          background-image: url("~assets/imgs/gamestories/line-mobile.png") !important ;
           object-fit: cover;
           background-repeat: no-repeat;
           height: 20px;

@@ -892,7 +892,7 @@ h1.ornate-core i {
       position: relative;
       top: 10px;
       width: 100%;
-      background-image: url("~/assets/imgs/coreFeatures/line-mobile.png");
+      background-image: url("~assets/imgs/coreFeatures/line-mobile.png");
       text-align: center;
     }
   }
